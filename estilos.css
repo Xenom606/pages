@@ -124,8 +124,8 @@ footer a:hover {
 }
 @media (max-width: 768px) {
     img {
-        width: 500px; /* Cambié el 10% por el 50% según tu solicitud anterior */
-        height: 300px; /* Esto mantiene la proporción de las imágenes */
+        width: 75%; /* Cambié el 10% por el 50% según tu solicitud anterior */
+        height: auto; /* Esto mantiene la proporción de las imágenes */
     }
 
     video {
