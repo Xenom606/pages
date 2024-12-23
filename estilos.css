@@ -124,4 +124,9 @@ footer a:hover {
 }
 @media (max-width: 768px) {
     img { width: 50%; }
+    video {
+    margin-left: 14px;
+    width: 600px;
+    height: 400px;
+}
 }
