@@ -23,6 +23,7 @@ img {
     margin-bottom: 20px; /* Espacio opcional entre las imágenes */
 }
 
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -120,4 +121,7 @@ footer a {
 footer a:hover {
     color: white; /* Texto blanco al pasar el mouse */
     background-color: rgb(76, 12, 12); /* Fondo burdeos al pasar el mouse */
+}
+@media (max-width: 768px) {
+    img { width: 50%; }
 }
