@@ -123,10 +123,18 @@ footer a:hover {
     background-color: rgb(76, 12, 12); /* Fondo burdeos al pasar el mouse */
 }
 @media (max-width: 768px) {
-    img { width: 10%; }
+    img {
+        width: 50%; /* Cambié el 10% por el 50% según tu solicitud anterior */
+        height: auto; /* Esto mantiene la proporción de las imágenes */
+    }
+
     video {
-    margin-left: 14px;
-    width: 300px;
-    height: 200px;}
+        margin-left: 14px;
+        width: 100%; /* Aquí se adapta el video al 100% del contenedor */
+        max-width: 300px; /* Limita el ancho máximo del video a 300px */
+        height: auto; /* Ajusta la altura proporcionalmente al ancho */
+    }
+}
+
 }
 }
