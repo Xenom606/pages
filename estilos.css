@@ -125,6 +125,13 @@ footer a:hover {
     background-color: rgb(76, 12, 12); /* Fondo burdeos al pasar el mouse */
 }
 @media (max-width: 768px) {
+   
+    nav {
+    margin: 40px 0; /* Espaciado entre el menú de navegación y el contenido */
+   
+    }
+
+    
     img {
         width: 200px; /* Cambié el 10% por el 50% según tu solicitud anterior */
         height: 200px; /* Esto mantiene la proporción de las imágenes */
