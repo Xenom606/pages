@@ -166,6 +166,7 @@ footer a:hover {
         width: 100%; /* Aquí se adapta el video al 100% del contenedor */
         max-width: 350px; /* Limita el ancho máximo del video a 300px */
         height: auto; /* Ajusta la altura proporcionalmente al ancho */
+        align: left;
     }
     footer {
         text-align: left; /* Mejora la legibilidad en pantallas pequeñas */
