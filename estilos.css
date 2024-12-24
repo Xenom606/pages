@@ -16,6 +16,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+.mapa-imagen {
+    width: 500px;
+    height:410px;
+}
+
 img {
     width: 600px;
     height:500px;
