@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!--
-        Head: Se utiliza para definir metadatos, el título de la página y enlaces a otros recursos como CSS o JavaScript.
-    -->
+     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="María del Carmen Martín Rodríguez">
@@ -12,15 +10,7 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <!--
-        Body: Contiene el contenido visible de la página, como textos, imágenes y enlaces.
-    -->
-    <!--Aria-label mejora significativamente la accesibilidad de tu página web, beneficiando 
-    principalmente a personas con discapacidades visuales o que usan tecnologías de asistencia 
-    como lectores de pantalla -->   
-    <!--El atributo role indica el propósito o función de un elemento en la página. 
-    Esto ayuda a los usuarios a comprender la relación y el comportamiento de los elementos dentro de la
-    interfaz de usuario.--> 
+    
     <nav aria-label="Menú de navegación principal">
         <ul>
             <li><a href="#introduccion" aria-label="Ir a la introducción del contenido">Introducción</a></li>
@@ -96,8 +86,7 @@
        sido levantadas el resto de esculturas. El recorrido para visitar las esculturas es denominado "Senda de las 
        Esculturas". Aquí mostramos las fotos de algunas.</p><br>
     
-    <!--Aria-describedby es útil para describir elementos complejos, como formularios, botones con 
-    acciones complicadas o imágenes que necesitan más explicación.-->
+
     <div class="contenedor-imagenes" role="region" aria-label="Galería de imágenes de esculturas">
     <img src="Monumento_a_la_Paz.webp" alt="Monumento a la Paz"  aria-describedby="descripcion-paz">
     <p id="descripcion-paz">Escultura que simboliza la paz y la armonía en el parque.</p>
@@ -120,7 +109,7 @@
         <li>«El Ayuntamiento asume la gestión del parque Juan Carlos I». El País. 28 de marzo de 2004.</li>
     </ul><br>
 
-    <!-- Lista no ordenada con elementos naturales -->
+    
     <h4 id="elementos-naturales">ELEMENTOS NATURALES EN EL PARQUE</h4>
     <ul>
         <li>Árboles</li>
