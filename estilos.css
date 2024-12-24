@@ -3,6 +3,7 @@ body {
     background-color: rgb(234, 221, 156); /* Fondo malva */
     color: rgb(76, 12, 12); /* Color de texto blanco */
     font-family: Arial, sans-serif; /* Fuente legible */
+    font-display: swap;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -150,8 +151,8 @@ footer a:hover {
 
     
     img {
-        width: 300px; /* Cambié el 10% por el 50% según tu solicitud anterior */
-        height: 300px; /* Esto mantiene la proporción de las imágenes */
+        width: 100%; /* Cambié el 10% por el 50% según tu solicitud anterior */
+        height: auto; /* Esto mantiene la proporción de las imágenes */
         margin-left: 5px;
     }
 
@@ -159,6 +160,9 @@ footer a:hover {
         width: 100%; /* Aquí se adapta el video al 100% del contenedor */
         max-width: 300px; /* Limita el ancho máximo del video a 300px */
         height: auto; /* Ajusta la altura proporcionalmente al ancho */
+    }
+    footer {
+        text-align: left; /* Mejora la legibilidad en pantallas pequeñas */
     }
 
 }
