@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 img {
-    width="600" height="500"
+    width="600px" height="500px"
     margin-left: 55px; /* Aplica un margen a la izquierda de 55px */
     margin-right: 0; /* No aplica margen a la derecha */
     display: block; /* Asegura que las imágenes se ubiquen en su propia línea */
