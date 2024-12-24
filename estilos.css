@@ -125,6 +125,18 @@ footer a:hover {
     background-color: rgb(76, 12, 12); /* Fondo burdeos al pasar el mouse */
 }
 @media (max-width: 768px) {
+
+    h1, h2, h3, h4, h5, h6, p, nav ul li {
+        margin-top: 5px; /* Espacio superior */
+        margin-bottom: 5px; /* Espacio inferior opcional */
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    ul, ol, li{
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+        
    
     nav {
     margin: 40px 0; /* Espaciado entre el menú de navegación y el contenido */
@@ -133,8 +145,8 @@ footer a:hover {
 
     
     img {
-        width: 200px; /* Cambié el 10% por el 50% según tu solicitud anterior */
-        height: 200px; /* Esto mantiene la proporción de las imágenes */
+        width: 300px; /* Cambié el 10% por el 50% según tu solicitud anterior */
+        height: 300px; /* Esto mantiene la proporción de las imágenes */
     }
 
     video {
