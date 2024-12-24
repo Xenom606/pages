@@ -161,6 +161,10 @@ footer a:hover {
         height: auto; /* Esto mantiene la proporción de las imágenes */
         margin-left: 5px;
     }
+    
+    audio {
+        margin-left: 5px;
+    }
 
     video {
         width: 100%; /* Aquí se adapta el video al 100% del contenedor */
